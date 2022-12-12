@@ -1,0 +1,138 @@
+body *{
+	font-family: 'Klee One', cursive;
+	border-radius: 25%;
+	text-align: center;
+}
+
+body{
+	background-image: url('images/fon.jpg');
+	background-size: cover;
+}
+
+h1{
+	/*position: absolute;
+	left: 530px;
+	top: 1px;*/
+	font-size: 66px;
+	color: rgb(0, 200, 230 );
+	text-shadow: 4px 4px 3px rgb(0,0, 0);
+
+}
+
+h2{
+	margin: auto;
+	font-size: 35px;
+	color: rgb(0, 0, 0 );
+}
+
+.ocean{
+	width: 600px;
+	height: 600px;
+	border-radius: 10%;
+	margin: 100px auto;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: rgba(0, 200, 230, 0.7);
+}
+
+.ocean_baby{
+	width: 20%;
+	height: 20%; 
+	margin: 5px;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: rgba(0, 255, 255, 0.9);
+	transition: 1s;
+}
+
+.ocean_baby img{
+	position: absolute;
+	width: 85%;
+	height: 85%;
+	transition: 0.1s;
+}
+
+.win, .start{
+	position: absolute;
+	inset: 200px 500px 300px;
+	font-size: 36px;
+	box-shadow: 0 0 0 2000px rgba(0,0,0,0.5);
+	background-color: cyan;
+	display: none;
+	z-index: 10;
+}
+
+.start{
+	display: block;
+	padding: 35px;
+}
+
+.fish{
+	opacity: 0;
+}
+
+#style{
+	display: none;
+}
+
+#not{
+	display: block;
+}
+
+.flip{
+	transform: scaleX(-1);
+}
+
+.flip .fish{
+	opacity: 1;
+}
+
+.flip .bubbles{
+	opacity: 0;
+}
+
+button{
+	width: 300px;
+	height: 70px;
+	font-size: 36px;
+	text-align: center;
+	background: linear-gradient(125deg, rgba(0,29,255,1) 0%, rgba(0,255,246,1) 100%);
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+img{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
